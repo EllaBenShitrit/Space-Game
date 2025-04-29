@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space">
+
+
+    <ImageView
+        android:id="@+id/live1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/heart" />
+
+
+    <ImageView
+        android:id="@+id/live2"
+        android:layout_toStartOf="@id/live1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/live3"
+        android:layout_toStartOf="@id/live2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/leftSpaceship"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/spaceship" />
+
+    <ImageView
+        android:id="@+id/middleSpaceship"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/spaceship" />
+
+    <ImageView
+        android:id="@+id/rightSpaceship"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/spaceship" />
+
+    <ImageView
+        android:id="@+id/alien01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien03"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+
+    <ImageView
+        android:id="@+id/alien11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien13"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien21"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien11"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien12"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien23"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien13"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien31"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien21"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien32"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien22"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien33"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien23"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien41"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien31"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien42"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien32"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien43"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien33"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien51"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien41"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien52"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien42"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien53"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien43"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+
+    <ImageView
+        android:id="@+id/alien61"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien51"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien62"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien52"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien63"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien53"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien71"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien61"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien72"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien62"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alien" />
+
+    <ImageView
+        android:id="@+id/alien73"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/alien63"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/alien" />
+
+
+
+
+    <ImageButton
+        android:id="@+id/leftArrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:rotation="180"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/arrow" />
+
+    <ImageButton
+        android:id="@+id/rightArrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/arrow" />
+
+
+</RelativeLayout>
