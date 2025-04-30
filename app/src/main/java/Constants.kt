@@ -3,8 +3,8 @@ package com.example.spacegame
 object Constants {
 
     object Timer {
-        const val NEW_ALIEN = 2000L // 2 seconds
-        const val DROP_ALIEN = 500L // 2 seconds
+        const val NEW_ALIEN = 1500L
+        const val DROP_ALIEN = 400L
     }
 
     object Alien {
