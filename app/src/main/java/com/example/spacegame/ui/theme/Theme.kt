@@ -52,7 +52,6 @@ fun SpaceGameTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
         content = content
     )
 }
